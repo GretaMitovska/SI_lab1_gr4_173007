@@ -65,3 +65,12 @@ class Point {
 
 
 }
+
+class Canvas {
+	List<Point> points = new ArrayList<>();
+
+	public void add(xDirection, yDirection) {
+		points.add(xDirection, yDirection);
+	}
+
+}
